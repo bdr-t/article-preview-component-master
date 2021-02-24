@@ -126,9 +126,6 @@ span{
     margin-left: 40px;
 }
 
-.author-hide{
-   display:none;
-}
 
 .social-hide{
     display: none;
@@ -147,12 +144,26 @@ span{
 }
 
 
+@media (max-width: 768px){
+    #share-btn-desktop{
+        display: none; 
+    }
+    .author-hide{
+        display:none;
+     }
+
+}
+
 @media (min-width: 768px){
-    .hide{
+
+    #share-btn{
+        display: none;
+    }
+    .esconder{
         visibility: hidden;
     }
 
-    .hide-triangle{
+    .esconder-triangle{
         visibility: hidden;
         
     }
